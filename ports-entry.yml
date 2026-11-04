@@ -1,0 +1,21 @@
+# Two edits are needed in catppuccin/catppuccin -> resources/ports.yml
+#
+# 1) Add yourself to the `collaborators` list at the top of the file
+#    (alphabetical order; copy the shape of an existing entry):
+
+# collaborators:
+#   lugwiire-benard: &lugwiire-benard { name: Lugwiire Benard, url: https://github.com/Lugwiire-Benard }
+
+#
+# 2) Add the port entry in the `ports` map (alphabetical order).
+#    Fields follow resources/ports.schema.json.
+#    `url` is required because the repository lives under your account
+#    rather than under the catppuccin organisation.
+
+fetchmark:
+  name: FetchMark
+  categories: [productivity]
+  platform: [web]
+  color: mauve
+  url: https://github.com/Lugwiire-Benard/fetchmark
+  current-maintainers: [*lugwiire-benard]
